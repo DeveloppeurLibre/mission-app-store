@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // Toute notre UI (user interface) doit absolument être dans le body
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            Circle()
+                .frame(width: 80)
+                .foregroundStyle(Color.gray)
+            VStack(alignment: .leading) {
+                Text("Quentin")
+                    .bold()
+                    .font(.system(size: 20))
+                Text("245 abonnés")
+            }
+            Spacer()
+            Text("S'abonner")
+                .foregroundStyle(Color.blue)
         }
         .padding()
     }
