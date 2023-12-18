@@ -13,6 +13,8 @@
 		6403C4B32B26F839009D40DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6403C4B22B26F839009D40DD /* Preview Assets.xcassets */; };
 		648184FB2B30C1E40057E6A0 /* Jour9Exo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648184FA2B30C1E40057E6A0 /* Jour9Exo1.swift */; };
 		648184FD2B30C52C0057E6A0 /* Jour9Exo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648184FC2B30C52C0057E6A0 /* Jour9Exo2.swift */; };
+		648184FF2B30C8490057E6A0 /* Jour10Postuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648184FE2B30C8490057E6A0 /* Jour10Postuler.swift */; };
+		648185012B30CAD40057E6A0 /* Jour10Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648185002B30CAD40057E6A0 /* Jour10Switch.swift */; };
 		64E3BF532B2A31C500FF5C6A /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3BF522B2A31C500FF5C6A /* ProfileCell.swift */; };
 		64E3BF552B2A339000FF5C6A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E3BF542B2A339000FF5C6A /* CustomButton.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,8 @@
 		6403C4B22B26F839009D40DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		648184FA2B30C1E40057E6A0 /* Jour9Exo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jour9Exo1.swift; sourceTree = "<group>"; };
 		648184FC2B30C52C0057E6A0 /* Jour9Exo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jour9Exo2.swift; sourceTree = "<group>"; };
+		648184FE2B30C8490057E6A0 /* Jour10Postuler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jour10Postuler.swift; sourceTree = "<group>"; };
+		648185002B30CAD40057E6A0 /* Jour10Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jour10Switch.swift; sourceTree = "<group>"; };
 		64E3BF522B2A31C500FF5C6A /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		64E3BF542B2A339000FF5C6A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +69,8 @@
 				64E3BF522B2A31C500FF5C6A /* ProfileCell.swift */,
 				648184FA2B30C1E40057E6A0 /* Jour9Exo1.swift */,
 				648184FC2B30C52C0057E6A0 /* Jour9Exo2.swift */,
+				648184FE2B30C8490057E6A0 /* Jour10Postuler.swift */,
+				648185002B30CAD40057E6A0 /* Jour10Switch.swift */,
 				6403C4AF2B26F839009D40DD /* Assets.xcassets */,
 				6403C4B12B26F839009D40DD /* Preview Content */,
 			);
@@ -149,12 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648185012B30CAD40057E6A0 /* Jour10Switch.swift in Sources */,
 				64E3BF552B2A339000FF5C6A /* CustomButton.swift in Sources */,
 				64E3BF532B2A31C500FF5C6A /* ProfileCell.swift in Sources */,
 				6403C4AE2B26F838009D40DD /* ContentView.swift in Sources */,
 				6403C4AC2B26F838009D40DD /* MissionAppStoreApp.swift in Sources */,
 				648184FB2B30C1E40057E6A0 /* Jour9Exo1.swift in Sources */,
 				648184FD2B30C52C0057E6A0 /* Jour9Exo2.swift in Sources */,
+				648184FF2B30C8490057E6A0 /* Jour10Postuler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
